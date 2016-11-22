@@ -1,0 +1,182 @@
+/** body{ 
+        background-color: blue; 
+        
+    }
+    .container{
+       margin-top: 0;
+        margin-right: auto;
+        margin-bottom: 0;
+        margin-left: auto;
+        background-color: white;
+        width: 660px;
+    }
+.leftside{
+       margin-top: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: 0;
+        background-color: white;
+    float:left;  overflow:hidden;
+    width: 270px;
+     
+    } h4 zijn de vragen. h5 zijn de antwoorden.
+
+text-align
+font-family
+font-size
+font-style
+font-variant
+font-weight
+line-height
+letter-spacing 
+word-spacing
+text-transform
+text-indent
+rgb(0,51,153)
+rgb(0%,20%,60%)
+#003399
+#039
+color
+background
+background : #fdf url(licht.gif);
+Die locatie is tov het css document, niet tov het html document !
+Geen aanhalingstekens rond de url nodig
+Werk met ‘tiles’ voor achtergrond (of niet …)
+background: #fdf url(licht.gif) repeat-x;
+
+repeat-x, no-repeat, repeat-y
+background-color
+background-image
+background-repeat
+background-attachment
+background-position 
+border-style
+border-color
+border-width
+Border-radius
+margin
+padding
+**/
+* { box-sizing: border-box;
+} 
+.body {
+    border-style: solid;
+    border-width: thick;
+    border-color: black;
+    width: 75%;
+}
+
+li{
+    color:black;
+    text-align: center;
+    font-family:cursive;
+    font-style: normal;
+    font-weight: 500;
+    list-style-type: none;
+    font-size: 1em;
+    
+        
+}
+#portfolio
+{margin-right: 47%;}
+.content, .navigationBar {
+   
+    margin-left:auto;
+    margin-right: auto;
+    
+}
+h3{color: white;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    margin-bottom:5px;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 1.27em;
+    border: 1px solid black; height: 40px; width: 300px; 
+    background-color: black;
+    /**z-index: 10000;
+    position:fixed;
+    left: 0;
+    right:0;**//
+        
+        
+
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    font-family: cursive;
+    font-style: italic;
+    border-style: ridge;
+    font-size: 1.25em;
+    border-color: black;
+    border-width: thick;
+    background-color: white;
+    
+        
+         }
+
+h5 { text-align: center;
+    font-family: cursive;
+    font-size: 1.25em;
+    text-indent:0;
+    text-transform:inherit;
+    border-style: ridge;
+    border-color: black;
+    border-width: thin;
+    
+    
+    
+}
+img{
+    display: block;
+  margin: 0px auto;
+}body
+{
+background-image:url("../IMG/Knowledge.png");
+background-repeat: no-repeat;
+background-position: right center;
+background-attachment: fixed;
+    margin:auto;
+    
+    
+}
+
+#Tabel {
+    font-family: cursive;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.keuzeVragen {
+    font-size:1.25em;
+    background-color:aquamarine
+}
+
+.Vragen {
+    text-align: center;
+}
+
+ul{
+    background-color: white;
+    width:99%px;
+    margin-left:10px;
+    margin-right:15px;
+    
+    
+    
+
+}
+li {
+    display: inline-block;
+        margin: 0 25px
+    
+}
+
+a:hover { 
+    background-color: yellow;
+}
